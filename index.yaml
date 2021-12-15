@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  cert-manager:
+  - annotations:
+      weave.works/layer: layer-0
+      weave.works/profile: cert-manager
+    apiVersion: v2
+    created: "2021-12-15T13:46:21.099859516Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.6.0
+    description: A Weaveworks Helm chart for the Certificate Profile
+    digest: e38afb26ce2f3fd16420c002e0d69c03dba633c4f84f35bc11a6e2ebec3c2f6e
+    home: https://github.com/wkp-example-org/helm-charts
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>=1.16.0-0'
+    name: cert-manager
+    sources:
+    - https://charts.jetstack.io
+    type: application
+    urls:
+    - https://github.com/wkp-example-org/helm-charts/releases/download/cert-manager-0.0.1/cert-manager-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-12-15T13:46:21.100176816Z"
